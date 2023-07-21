@@ -1,9 +1,11 @@
 import React from 'react'
+import Banner from '../components/Banner'
 
 const Contactpage = () => {
     return <>
         {/* page-heading starts */}
-        <div class="page-heading contact-heading header-text">
+        <Banner title="contact us" subtitle="let’s get in touch" />
+        {/* <div class="page-heading contact-heading header-text">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -14,7 +16,7 @@ const Contactpage = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         {/* page-heading ends*/}
 
         {/* find us starts here */}
