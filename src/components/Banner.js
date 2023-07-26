@@ -8,10 +8,10 @@ const Banner = ({ title, subtitle }) => {
 
     return (
         <div class={class_name}>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-content">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="text-content">
                             <h4>{title}</h4>
                             <h2>{subtitle}</h2>
                         </div>

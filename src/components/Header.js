@@ -2,29 +2,32 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Header = () => {
-    return <header class="">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
+    return <header className="">
+        <nav className="navbar navbar-expand-lg">
+            <div className="container">
                 <NavLink to="/" className='navbar-brand'><h2>Sixteen <em>Clothing</em></h2></NavLink>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/">
                                 Home
-                                <span class="sr-only">(current)</span>
+                                <span className="sr-only">(current)</span>
                             </NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/products">Our Products</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/about">About Us</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/signup">Signup</NavLink>
                         </li>
                     </ul>
                 </div>

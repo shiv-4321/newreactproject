@@ -5,6 +5,8 @@ import Aboutpage from './pages/Aboutpage';
 import Contactpage from './pages/Contactpage';
 import Rootlayout from './pages/Rootlayout';
 import Productpage from './pages/Productpage';
+import Errorpage from './pages/Errorpage';
+import Signuppage from './pages/Signuppage';
 
 function App() {
 
@@ -12,11 +14,13 @@ function App() {
     {
       path: '/',
       element: <Rootlayout />,
+      errorElement:<Errorpage />,
       children: [
         { index: true, element: <Homepage /> },
         { path: 'products', element: <Productpage /> },
         { path: 'about', element: <Aboutpage /> },
-        { path: 'contact', element: <Contactpage /> }
+        { path: 'contact', element: <Contactpage /> },
+        { path: 'signup', element: <Signuppage /> }
       ]
     }
   ]);

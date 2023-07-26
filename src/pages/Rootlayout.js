@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 const Rootlayout = () => {
     return <>
         <div id="preloader" >
-            <div class="jumper">
+            <div className="jumper">
                 <div></div>
                 <div></div>
                 <div></div>

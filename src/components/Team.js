@@ -1,57 +1,27 @@
 import React from 'react'
 import Teammember from './Teammember'
 
-const Team = () => {
-    return <div class="team-members">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
+const Team = ({ team_members }) => {
+    return <div className="team-members">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="section-heading">
                         <h2>Our Team Members</h2>
                     </div>
                 </div>
 
-                <Teammember
-                    image="assets/images/team_01.jpg"
-                    name="Johnny William"
-                    designation="CO-Founder"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla."
-                />
-
-                <Teammember
-                    image="assets/images/team_02.jpg"
-                    name="Karry Pitcher"
-                    designation="Karry Pitcher"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla."
-                />
-
-                <Teammember
-                    image="assets/images/team_03.jpg"
-                    name="Michael Soft"
-                    designation="Chief Marketing"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla."
-                />
-
-                <Teammember
-                    image="assets/images/team_04.jpg"
-                    name="Mary Cool"
-                    designation="Product Specialist"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla."
-                />
-
-                <Teammember
-                    image="assets/images/team_05.jpg"
-                    name="George Walker"
-                    designation="Product Photographer"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla."
-                />
-
-                <Teammember
-                    image="assets/images/team_06.jpg"
-                    name="Kate Town"
-                    designation="General Manager"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipisicing itaque corporis nulla."
-                />
+                {
+                    team_members.length && team_members.map((team, index) =>
+                        <Teammember
+                            key={index}
+                            image={team.image}
+                            name={team.name}
+                            designation={team.designation}
+                            desc={team.desc}
+                        />
+                    )
+                }
             </div>
         </div>
     </div>

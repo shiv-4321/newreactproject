@@ -1,0 +1,50 @@
+[
+    {
+        "image": "assets/images/product_01.jpg",
+        "title": "Tittle goes here",
+        "currency": "$",
+        "price": "18.25",
+        "description": "Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.",
+        "reviews": "12"
+    },
+    {
+        "image": "assets/images/product_02.jpg",
+        "title": "Tittle goes here",
+        "currency": "$",
+        "price": "16.75",
+        "description": "Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.",
+        "reviews": "24"
+    },
+    {
+        "image": "assets/images/product_03.jpg",
+        "title": "Tittle goes here",
+        "currency": "$",
+        "price": "32.50",
+        "description": "Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.",
+        "reviews": "36"
+    },
+    {
+        "image": "assets/images/product_04.jpg",
+        "title": "Tittle goes here",
+        "currency": "$",
+        "price": "24.60",
+        "description": "Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.",
+        "reviews": "48"
+    },
+    {
+        "image": "assets/images/product_05.jpg",
+        "title": "Tittle goes here",
+        "currency": "$",
+        "price": "18.75",
+        "description": "Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.",
+        "reviews": "60"
+    },
+    {
+        "image": "assets/images/product_06.jpg",
+        "title": "Tittle goes here",
+        "currency": "$",
+        "price": "12.50",
+        "description": "Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.",
+        "reviews": "72"
+    }
+]
